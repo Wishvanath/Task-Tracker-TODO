@@ -1,0 +1,59 @@
+body{
+    background: rgba(12, 12, 12, 0.8);
+    color: white;
+}
+.task_header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(93, 92, 92, 0.8);
+    padding: 10px;
+    width: 300px;
+}
+.new_task_header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(93, 92, 92, 0.8);
+    padding: 10px;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-bottom: 30px;
+}
+.table{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.new_task_section{
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+}
+
+
+.txt_input{
+    width: 100%;
+    background: rgba(93, 92, 92, 0.8);
+    border: none;
+    padding: 10px;
+    color: black;
+    margin-bottom: 10px;
+}
+.btn_task_save{
+    min-width: 150px;
+    /* float: right; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.task_inner_body{
+    max-height: 450px;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 450px;
+}
